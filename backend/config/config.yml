@@ -1,0 +1,12 @@
+port: 8080
+
+auth:
+  hash_salt: "hash_salt"
+  signing_key: "signing_key"
+  token_ttl: 86400
+
+mysql:
+  uri: "@tcp(127.0.0.1:3306)"
+  name: "testdb"
+  user_collection: "admin"
+  bookmark_collection: "bookmarks"
